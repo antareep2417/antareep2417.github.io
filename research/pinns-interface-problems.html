@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Physics-informed neural networks for interface problems — A. K. Sarma</title>
+  <meta name="description" content="Physics-informed neural network frameworks (I-PINNs, VI-PINNs, AdaI-PINNs) for problems with material interfaces, motivated by heterogeneous subsurface systems.">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="top">
+  <nav class="wrap" aria-label="Main">
+    <a class="brand" href="../index.html">A. K. Sarma</a>
+    <ul>
+      <li><a href="../index.html#research">Research</a></li>
+      <li><a href="../index.html#publications">Publications</a></li>
+      <li><a href="../index.html#talks">Talks</a></li>
+      <li><a href="../index.html#teaching">Teaching</a></li>
+      <li><a href="../index.html#cv">CV</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="wrap project">
+  <a class="crumb" href="../index.html#research">← All research</a>
+  <h1>Physics-informed neural networks for interface problems</h1>
+  <p class="meta">M.S. (Research) thesis · IIT Madras · 2021 – 2023 · with Dr. Chandrasekhar Annavarapu</p>
+
+  <h2>Overview</h2>
+  <p>Physics-informed neural networks (PINNs) solve differential equations by training a network to satisfy the governing physics directly. Standard PINNs struggle when the material properties change abruptly across an interface, as in geological strata or around faults, because the solution is not smooth there.</p>
+  <p>This project developed PINN frameworks for heterogeneous physical systems with material interfaces. The aim is to model geometrically complex and highly heterogeneous subsurface systems that combine geological stratification with naturally occurring faults.</p>
+
+  <h2>Methods</h2>
+  <ul>
+    <li><strong>I-PINNs</strong>, a PINN framework for interface problems.</li>
+    <li><strong>VI-PINNs</strong>, a variational formulation of interface PINNs, aimed at heterogeneous subsurface systems.</li>
+    <li><strong>AdaI-PINNs</strong>, an adaptive variant developed with collaborators, aimed at making interface PINNs more efficient.</li>
+  </ul>
+  <!-- TODO (Antareep): add a short, plain-language sentence on what is distinctive about each method, and one headline result. -->
+
+  <h2>Figures</h2>
+  <div class="slot">
+    Figures to come: a heterogeneous test problem, solution comparison against a reference, and error plots.
+    <!-- Replace this div with <figure><img src="../assets/fig-ipinn.png" alt="..."><figcaption>...</figcaption></figure> -->
+  </div>
+
+  <h2>Publications</h2>
+  <ol class="pubs" reversed>
+    <li>
+      Roy, S., Annavarapu, C., Roy, P. and <strong>Sarma, A. K.</strong> (2024).
+      Adaptive interface-PINNs (AdaI-PINNs): an efficient physics-informed neural networks framework for interface problems.
+      <em>Communications in Computational Physics</em> (accepted).
+      <a href="https://arxiv.org/pdf/2406.04626">arXiv</a>
+    </li>
+    <li>
+      <strong>Sarma, A. K.</strong>, Roy, S., Annavarapu, C., Roy, P. and Jagannathan, S. (2024).
+      Interface PINNs (I-PINNs): a physics-informed neural networks framework for interface problems.
+      <em>Computer Methods in Applied Mechanics and Engineering</em>, 429, 117135.
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0045782524003918">Journal</a>
+    </li>
+    <li>
+      <strong>Sarma, A. K.</strong>, Annavarapu, C., Roy, P. and Jagannathan, S. (2023).
+      Variational interface physics informed neural networks (VI-PINNs) for heterogeneous subsurface systems.
+      <em>57th U.S. Rock Mechanics / Geomechanics Symposium</em>, ARMA-2023-0760.
+      <a href="https://onepetro.org/ARMAUSRMS/proceedings-abstract/ARMA23/ARMA23/ARMA-2023-0760/532550">OnePetro</a>
+    </li>
+  </ol>
+
+  <h2>Talks</h2>
+  <ul class="plain">
+    <li>
+      <span class="when">Aug 2022</span>
+      <span><strong>PINNs for heterogeneous materials.</strong> <em>WCCM-APCOM 2022</em> (15th World Congress on Computational Mechanics &amp; 8th Asian Pacific Congress on Computational Mechanics), virtual.</span>
+    </li>
+  </ul>
+
+  <h2>Collaborators</h2>
+  <p>Chandrasekhar Annavarapu (IIT Madras), Pratanu Roy (Lawrence Livermore National Laboratory), Shriram Jagannathan (NVIDIA), S. Roy.</p>
+  <!-- TODO: confirm affiliation for S. Roy and whether you want collaborators listed. -->
+
+  <nav class="pager" aria-label="Projects">
+    <a href="fluid-induced-ruptures.html">← Fluid-induced frictional ruptures in fractured rock</a>
+    <span></span>
+  </nav>
+</main>
+
+<footer class="wrap">
+  <p>© 2026 Antareep Kumar Sarma</p>
+</footer>
+
+</body>
+</html>
