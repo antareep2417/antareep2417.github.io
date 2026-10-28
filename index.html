@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Antareep Kumar Sarma — Computational Geomechanics</title>
+  <meta name="description" content="Antareep Kumar Sarma, doctoral researcher at EPFL (Geo-Energy Laboratory). Fluid-induced frictional ruptures in fractured rock and fault damage zones; boundary element methods; physics-informed neural networks.">
+  <meta property="og:title" content="Antareep Kumar Sarma">
+  <meta property="og:description" content="Fluid-induced aseismic and seismic slip in fractured rock. Doctoral researcher at EPFL.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="top">
+  <nav class="wrap" aria-label="Main">
+    <a class="brand" href="#top">A. K. Sarma</a>
+    <ul>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#talks">Talks</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top" class="wrap">
+
+  <!-- ===== Intro ===== -->
+  <section class="intro">
+    <!-- To use a photo: save it as assets/photo.jpg (square, ~600px) and replace
+         the monogram div below with:
+         <img class="portrait" src="assets/photo.jpg" alt="Antareep Kumar Sarma"> -->
+    <div class="portrait monogram" aria-hidden="true">AKS</div>
+    <div>
+      <h1>Antareep Kumar Sarma</h1>
+      <p class="role">Doctoral researcher, <a href="https://www.epfl.ch/labs/gel/">Geo-Energy Laboratory</a>, EPFL</p>
+      <p class="role sub">Advisor: <a href="https://people.epfl.ch/brice.lecampion">Prof. Brice Lecampion</a></p>
+      <ul class="links">
+        <li><a href="mailto:antareep.sarma@epfl.ch">Email</a></li>
+        <li><a href="https://scholar.google.com/citations?user=GtLtH08AAAAJ&hl=en&oi=ao">Google Scholar</a></li>
+        <li><a href="https://www.researchgate.net/profile/Antareep-Kumar-Sarma">ResearchGate</a></li>
+        <li><a href="https://www.linkedin.com/in/antareep-kumar-sarma-85ba56187/">LinkedIn</a></li>
+        <!-- TODO: add GitHub and ORCID once you share the URLs -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about">
+    <h2>About</h2>
+    <p class="lead">I study how pressurised fluids set faults and fracture networks in motion, and why some of that slip is quiet while some of it is an earthquake.</p>
+    <p>I am a PhD student at EPFL, working on fluid-driven frictional ruptures in discrete fracture networks, with a focus on fault damage zones. My work combines theory with numerical modelling using a boundary element method (BEM) solver developed in our group. It is relevant to induced seismicity in geo-energy applications such as fluid injection for geothermal energy and subsurface storage.</p>
+    <p>Before EPFL, I completed an M.S. (Research) in Civil Engineering at IIT Madras, where I developed physics-informed neural network (PINN) methods for heterogeneous subsurface systems, and a B.Tech. in Civil Engineering at NIT Silchar.</p>
+  </section>
+
+  <!-- ===== Research ===== -->
+  <section id="research">
+    <h2>Research</h2>
+
+    <article class="theme">
+      <h3><a class="plainlink" href="research/fluid-induced-ruptures.html">Fluid-induced frictional ruptures in fractured rock</a></h3>
+      <p class="meta">Doctoral research · EPFL · 2023 – present</p>
+      <p>Injecting fluid into the subsurface can reactivate pre-existing faults and fractures. Whether the resulting slip stays slow and aseismic or runs away as a seismic rupture depends on the interplay of fluid pressure diffusion, friction and fracture geometry. I develop theoretical and numerical models of this process in discrete fracture networks, with particular attention to fault damage zones, where closely spaced fractures interact and can set off cascades of slip.</p>
+      <p class="more"><a href="research/fluid-induced-ruptures.html">Project page →</a></p>
+      <p class="tags"><span>Induced seismicity</span><span>Aseismic slip</span><span>Fault damage zones</span><span>Discrete fracture networks</span><span>Boundary element method</span></p>
+      <!-- TODO: add 1–2 figures from your simulations here, e.g.
+           <figure><img src="assets/fig-cascade.png" alt="..."><figcaption>...</figcaption></figure> -->
+    </article>
+
+    <article class="theme">
+      <h3><a class="plainlink" href="research/pinns-interface-problems.html">Physics-informed neural networks for interface problems</a></h3>
+      <p class="meta">M.S. thesis · IIT Madras · 2021 – 2023</p>
+      <p>I developed physics-informed neural network frameworks for problems with material interfaces, which are central to modelling geologically layered and faulted subsurface systems. This led to Interface PINNs (I-PINNs) and Variational Interface PINNs (VI-PINNs), and a collaboration on the adaptive variant, AdaI-PINNs.</p>
+      <p class="more"><a href="research/pinns-interface-problems.html">Project page →</a></p>
+      <p class="tags"><span>PINNs</span><span>Interface problems</span><span>Heterogeneous media</span><span>Scientific machine learning</span></p>
+    </article>
+  </section>
+
+  <!-- ===== Publications ===== -->
+  <section id="publications">
+    <h2>Publications</h2>
+    <ol class="pubs" reversed>
+      <li>
+        Roy, S., Annavarapu, C., Roy, P. and <strong>Sarma, A. K.</strong> (2024).
+        Adaptive interface-PINNs (AdaI-PINNs): an efficient physics-informed neural networks framework for interface problems.
+        <em>Communications in Computational Physics</em> (accepted).
+        <a href="https://arxiv.org/pdf/2406.04626">arXiv</a>
+      </li>
+      <li>
+        <strong>Sarma, A. K.</strong>, Roy, S., Annavarapu, C., Roy, P. and Jagannathan, S. (2024).
+        Interface PINNs (I-PINNs): a physics-informed neural networks framework for interface problems.
+        <em>Computer Methods in Applied Mechanics and Engineering</em>, 429, 117135.
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0045782524003918">Journal</a>
+      </li>
+      <li>
+        <strong>Sarma, A. K.</strong>, Annavarapu, C., Roy, P. and Jagannathan, S. (2023).
+        Variational interface physics informed neural networks (VI-PINNs) for heterogeneous subsurface systems.
+        <em>57th U.S. Rock Mechanics / Geomechanics Symposium</em>, ARMA-2023-0760.
+        <a href="https://onepetro.org/ARMAUSRMS/proceedings-abstract/ARMA23/ARMA23/ARMA-2023-0760/532550">OnePetro</a>
+      </li>
+      <li>
+        <strong>Sarma, A. K.</strong>, Choudhury, A., Sarma, K. and Alammyan, A. (2021).
+        Stability assessment of a soil slope in Meghalaya, North-Eastern India.
+        <em>Lecture Notes in Civil Engineering</em>, vol. 133, pp. 753–763 (Indian Geotechnical Conference 2019, Surat).
+        <a href="https://link.springer.com/chapter/10.1007/978-981-33-6346-5_65">Springer</a>
+      </li>
+    </ol>
+    <p class="note">Full list on <a href="https://scholar.google.com/citations?user=GtLtH08AAAAJ&hl=en&oi=ao">Google Scholar</a>.</p>
+  </section>
+
+  <!-- ===== Talks ===== -->
+  <section id="talks">
+    <h2>Talks &amp; posters</h2>
+    <ul class="plain">
+      <li>
+        <span class="when">Oct 2024</span>
+        <span><strong>Fluid injection induced seismicity: a numerical study of aseismic cascade slip events in fault damage zones.</strong> Poster with B. Lecampion. <em>Earthquakes: nucleation, triggering, rupture, and relationships to aseismic processes (4th ed.)</em>, Cargèse, Corsica.</span>
+      </li>
+      <li>
+        <span class="when">Aug 2022</span>
+        <span><strong>PINNs for heterogeneous materials.</strong> Talk. <em>WCCM-APCOM 2022</em> (15th World Congress on Computational Mechanics &amp; 8th Asian Pacific Congress on Computational Mechanics), virtual.</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ===== Teaching & service ===== -->
+  <section id="teaching">
+    <h2>Teaching &amp; service</h2>
+    <ul class="plain">
+      <li>
+        <span class="when">2024 – now</span>
+        <span><strong>Teaching assistant, EPFL.</strong> <em>Civil 306: Geotechnical Works</em> and <em>Civil 423: Computational Geomechanics</em> (Prof. B. Lecampion). Weekly exercise sessions, grading.</span>
+      </li>
+      <li>
+        <span class="when">2022 – 23</span>
+        <span><strong>Teaching assistant, IIT Madras.</strong> <em>CE 5815: Introduction to Computational Geomechanics</em> (Dr. C. Annavarapu). Weekly MATLAB tutorials, grading.</span>
+      </li>
+      <li>
+        <span class="when">2024 – now</span>
+        <span><strong>President, YUVA-Indians, EPFL.</strong> Student association for Indian and Indian-origin students in Lausanne.</span>
+      </li>
+      <li>
+        <span class="when">2022 – 23</span>
+        <span><strong>Research Affairs Secretary Executive, IIT Madras.</strong> Liaison between research scholars and the administration.</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ===== Education & awards ===== -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul class="plain">
+      <li><span class="when">2023 – now</span><span><strong>Ph.D., Doctoral School in Mechanics</strong>, EPFL, Lausanne, Switzerland</span></li>
+      <li><span class="when">2021 – 23</span><span><strong>M.S. (Research), Civil Engineering</strong>, IIT Madras, India</span></li>
+      <li><span class="when">2016 – 20</span><span><strong>B.Tech., Civil Engineering</strong>, NIT Silchar, India (2nd rank in department)</span></li>
+    </ul>
+
+    <h2 class="spaced">Awards</h2>
+    <ul class="plain">
+      <li><span class="when">2024</span><span>Swiss Government Excellence Fellowship</span></li>
+      <li><span class="when">2019</span><span>Summer Research Fellowship, Indian Academy of Sciences</span></li>
+      <li><span class="when">2021</span><span>GATE (Civil Engineering), 99.03 percentile</span></li>
+    </ul>
+  </section>
+
+  <!-- ===== CV ===== -->
+  <section id="cv">
+    <h2>CV</h2>
+    <p><a class="button" href="assets/Antareep_Sarma_CV.pdf">Download CV (PDF)</a></p>
+    <p class="note">Last updated October 2026.</p>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Antareep Kumar Sarma<br>
+      Geo-Energy Laboratory, School of Architecture, Civil and Environmental Engineering<br>
+      École Polytechnique Fédérale de Lausanne (EPFL), Switzerland<br>
+      <a href="mailto:antareep.sarma@epfl.ch">antareep.sarma@epfl.ch</a>
+    </p>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <p>© 2026 Antareep Kumar Sarma</p>
+</footer>
+
+</body>
+</html>
